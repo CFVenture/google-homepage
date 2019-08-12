@@ -1,29 +1,42 @@
+div {
+
+}
+
+header {
+    padding:0.25em;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+  }
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+
 ul {
     list-style-type: none;
-    margin: ;
+    margin: auto;
     padding: 0;
     width: 60px;
   }
+
 li a {
     display: block;
     width: 60px;
 }
+
 #navbar {
-    position: fixed;
+    position: relative;
     width: 100%;
-}
-nav ul {
-  margin: 0px;
-  padding: 5px 0px 5px 30px;
-}
-nav li {
-  display: inline;
-  margin-right: 20px;
 }
 #searchbar {
     position: absolute;
     top: 50px;
     right: 50px;
+    border-radius: 50px;
 }
 #left {
     float:left;
