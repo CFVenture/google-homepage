@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
 div {
 
 }
@@ -6,28 +10,28 @@ header {
     padding:0.25em;
 }
 
-nav ul {
-    margin: 0px;
-    padding: 5px 0px 5px 30px;
-  }
-
-nav li {
-    display: inline;
-    margin-right: 20px;
-  }
-
 ul {
     list-style-type: none;
-    margin: auto;
+    margin: 0;
     padding: 0;
     width: 60px;
+    /*overflow: hidden;*/
   }
-
+li {
+    float: left;
+}
 li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
     display: block;
     width: 60px;
 }
-
+a:hover {
+    text-decoration: underline;
+}
+/*
 #navbar {
     position: relative;
     width: 100%;
