@@ -1,36 +1,30 @@
 body {
     font-family: Arial, sans-serif;
 }
-
-div {
-
-}
-
-header {
-    padding:0.25em;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 60px;
     /*overflow: hidden;*/
   }
-li {
+#left {
     float: left;
 }
+#right {
+    float: right;
+}
+/* Is it possible to combine the above two statements?*/
 li a {
     display: block;
     color: black;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    display: block;
-    width: 60px;
 }
 a:hover {
     text-decoration: underline;
 }
+
 /*
 #navbar {
     position: relative;
@@ -41,10 +35,4 @@ a:hover {
     top: 50px;
     right: 50px;
     border-radius: 50px;
-}
-#left {
-    float:left;
-}
-#right {
-    float: right;
 }
