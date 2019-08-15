@@ -27,10 +27,21 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 .container {
+    top: 50%;
     height: 200px;
     position: relative;
     display: block;
     align-content: center;
+}
+.buttons {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: darkgray;
+    border-radius: 4px;
+}
+.buttons:hover {
+    color: black;
+    border: 1px solid #f2f2f2;
 }
 #left {
     float: left;
@@ -44,12 +55,17 @@ a:hover {
     position: fixed;
     bottom: 0;
     width: 100%;
+    top-border: 3px 
 }
 #searchbar {
     position: absolute;
+    width: 20%;
     top: 50px;
     right: 50px;
-    border-radius: 50px;
+    background-color: rgb(190, 189, 189);
+}
+#searchbar:hover {
+
 }
 /*
 #navbar {
