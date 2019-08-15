@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: small;
 }
 ul {
     list-style-type: none;
@@ -30,6 +31,11 @@ a:hover {
     float: right;
 }
 /* Is it possible to combine the above two statements?*/
+#container {
+    position: relative;
+    display: block;
+    align-content: center;
+}
 #fbar {
     position: fixed;
     bottom: 0;
