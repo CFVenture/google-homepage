@@ -47,7 +47,7 @@ a:hover {
 /* Is it possible to combine the above two statements?*/
 #tbar {
     position: fixed;
-    bottom: 0;
+    top: 0;
     width: 100%;
 }
 #fbar {
