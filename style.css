@@ -25,10 +25,10 @@ a:hover {
 
 }
 .center {
-    display: inline-block;
     margin-top: 40%;
 }
 .buttons {
+    border-radius: 25px;
     font-family: inherit;
     font-size: inherit;
     background-color: darkgray;
