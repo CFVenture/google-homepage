@@ -18,20 +18,19 @@ li a {
 a:hover {
     text-decoration: underline;
 }
+.container {
+    top: 50%;
+    position: relative;
+    display: block;
+    align-content: center;
+}
 .center {
-    margin: 0;
+    margin: 10px 10px 10px;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}
-.container {
-    top: 50%;
-    height: 200px;
-    position: relative;
-    display: block;
-    align-content: center;
 }
 .buttons {
     font-family: inherit;
@@ -55,7 +54,7 @@ a:hover {
     position: fixed;
     bottom: 0;
     width: 100%;
-    top-border: 3px 
+    border: 1px solid grey;
 }
 #searchbar {
     position: absolute;
