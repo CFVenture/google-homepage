@@ -18,13 +18,11 @@ li a {
 a:hover {
     text-decoration: underline;
 }
-nav {
-    display: inline-block;
-}
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 
 }
 .center {
     display: inline-block;
@@ -55,12 +53,16 @@ nav {
 #searchbar {
     border-radius: 50px;
     width: 50%;
+    height: 5%;
+    background-color: rgb(190, 189, 189);
     top: 50px;
     right: 50px;
-    background-color: rgb(190, 189, 189);
+    
 }
 #searchbar:hover {
-
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
 }
 /*
 #navbar {
