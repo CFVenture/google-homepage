@@ -26,6 +26,7 @@ a:hover {
 }
 .center {
     display: inline-block;
+    margin-top: 40%;
 }
 .buttons {
     font-family: inherit;
@@ -44,7 +45,11 @@ a:hover {
     float: right;
 }
 /* Is it possible to combine the above two statements?*/
-
+#tbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 #fbar {
     position: fixed;
     bottom: 0;
