@@ -22,7 +22,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 
+
 }
 .center {
     display: inline-block;
@@ -31,6 +31,7 @@ a:hover {
     font-family: inherit;
     font-size: inherit;
     background-color: darkgray;
+    margin: 10px 10px 10px;
 }
 .buttons:hover {
     color: black;
@@ -52,8 +53,8 @@ a:hover {
 }
 #searchbar {
     border-radius: 50px;
-    width: 50%;
-    height: 5%;
+    width: 350px;
+    height: 25px;
     background-color: rgb(190, 189, 189);
     top: 50px;
     right: 50px;
