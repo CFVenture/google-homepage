@@ -19,24 +19,15 @@ a:hover {
     text-decoration: underline;
 }
 .container {
-    top: 50%;
-    position: relative;
-    display: block;
-    align-content: center;
+    
 }
 .center {
-    margin: 10px 10px 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    
 }
 .buttons {
     font-family: inherit;
     font-size: inherit;
     background-color: darkgray;
-    border-radius: 4px;
 }
 .buttons:hover {
     color: black;
